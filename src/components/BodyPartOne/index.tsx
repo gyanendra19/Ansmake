@@ -26,30 +26,30 @@ function BodyPartOne({ }: Props) {
         <section className='w-full h-fit relative'>
             <div className='before:absolute before:bg-[#0B153C] before:z-[-1] before:h-full before:w-full before:opacity-80'></div>
             <div className='w-full md:h-[900px] h-[1000px] absolute z-[-10]'>
-                <img className='h-full' src='public/vaccine-bg.jpeg' alt="" />
+                <img className='h-full' src='/vaccine-bg.jpeg' alt="" />
             </div>
 
             <div className='py-14 w-full'>
                 <div className='w-[90%] mx-auto'>
                     <div className='md:flex justify-between'>
                         <div className='basis-3/5'>
-                            <div className='w-[80%] md:mt-20 mt-10'>
-                                <p className='md:text-5xl text-xl font-extrabold text-white'>COVID-19 Vaccination Got Easier With,</p>
-                                <span className='text-[#17C2EC] font-extrabold md:text-5xl text-xl'>Vaccination.ng</span>
+                            <div className='md:w-[80%] md:mt-20 mt-10'>
+                                <p className='md:text-5xl text-2xl font-extrabold text-white'>COVID-19 Vaccination Got Easier With,</p>
+                                <span className='text-[#17C2EC] font-extrabold md:text-5xl text-2xl'>Vaccination.ng</span>
 
-                                <p className='md:mt-12 mt-6 opacity-70 text-white md:leading-7 md:text-2xl text-sm font-medium'>Vaccination.ng will help you find the nearest
+                                <p className='md:mt-12 mt-6 opacity-70 text-white md:leading-7 md:text-2xl text-md font-medium'>Vaccination.ng will help you find the nearest
                                     centre for vaccination, in all 36 states in Nigeria.</p>
 
-                                <div className="flex md:mt-12 mt-8 gap-5">
+                                <div className="flex md:mt-12 mt-8 gap-6 ml-7 md:ml-0">
                                     <button className='whitespace-nowrap px-4 md:py-2 py-3 md:text-xl text-sm bg-[#17C2EC] text-white font-semibold rounded-[16px]'>Get Vaccine</button>
-                                    <button className='px-5 whitespace-nowrap md:text-xl py-3 bg-[#2e2c4d] border-2 border-[#17C2EC] text-white font-semibold text-sm rounded-[16px] drop-shadow-md'>Help Centre</button>
+                                    <button className='px-5 whitespace-nowrap md:text-xl py-3 bg-[#2e2c4d] border-2 border-[#17C2EC] text-white font-semibold text-sm rounded-[16px] '>Help Centre</button>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div className='mt-10 md:mt-0 ml-4 md:ml-0'>
-                            <img className='h-[250px] md:h-full' src="public/vaccine.png" alt="" />
+                        <div className='mt-10 md:mt-0 ml-12 md:ml-0'>
+                            <img className='h-[250px] md:h-full' src="/vaccine.png" alt="" />
                         </div>
                     </div>
 

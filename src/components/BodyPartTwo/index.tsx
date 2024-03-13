@@ -6,7 +6,7 @@ function BodyPartTwo({ }: Props) {
     <section className='w-full h-fit relative'>
       <div className='before:absolute before:bg-[#0B153C] before:z-[-1] before:h-full before:w-full before:opacity-80'></div>
       <div className='w-full h-[390px] absolute z-[-10]'>
-        <img className='h-full w-full' src='public/vaccine-bg.jpeg' alt="" />
+        <img className='h-full w-full' src='/vaccine-bg.jpeg' alt="" />
       </div>
 
       <div className='py-16 w-full'>
