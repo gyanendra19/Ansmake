@@ -1,4 +1,3 @@
-import React from 'react'
 import { RiMapPinLine, RiCalendarLine, RiShieldLine} from '@remixicon/react'
 
 
