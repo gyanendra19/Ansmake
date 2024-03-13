@@ -40,7 +40,7 @@ function BodyPartOne({ }: Props) {
                                 <p className='md:mt-12 mt-6 opacity-70 text-white md:leading-7 md:text-2xl text-md font-medium'>Vaccination.ng will help you find the nearest
                                     centre for vaccination, in all 36 states in Nigeria.</p>
 
-                                <div className="flex md:mt-12 mt-8 gap-6 ml-7 md:ml-0">
+                                <div className="flex md:mt-12 mt-8 gap-6 ml-6 md:ml-0">
                                     <button className='whitespace-nowrap px-4 md:py-2 py-3 md:text-xl text-sm bg-[#17C2EC] text-white font-semibold rounded-[16px]'>Get Vaccine</button>
                                     <button className='px-5 whitespace-nowrap md:text-xl py-3 bg-[#2e2c4d] border-2 border-[#17C2EC] text-white font-semibold text-sm rounded-[16px] '>Help Centre</button>
                                 </div>
