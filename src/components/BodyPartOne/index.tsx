@@ -25,7 +25,7 @@ function BodyPartOne({ }: Props) {
     return (
         <section className='w-full h-fit relative'>
             <div className='before:absolute before:bg-[#0B153C] before:z-[-1] before:h-full before:w-full before:opacity-80'></div>
-            <div className='w-full md:h-[900px] h-[1000px] absolute z-[-10]'>
+            <div className='w-full md:h-[900px] h-[1008px] absolute z-[-10]'>
                 <img className='h-full' src='/vaccine-bg.jpeg' alt="" />
             </div>
 
